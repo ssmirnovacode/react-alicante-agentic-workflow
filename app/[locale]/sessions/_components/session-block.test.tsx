@@ -23,7 +23,7 @@ describe("SessionBlock", () => {
 
     expect(screen.getByText("Opening Keynote")).toBeInTheDocument();
     expect(
-      screen.getByText("09:00 · Marta Fernandez · Beginner"),
+      screen.getByText("09:00 · Beginner · Marta Fernandez"),
     ).toBeInTheDocument();
   });
 
