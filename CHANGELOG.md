@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.4.0] — 2026-09-24
+
+### Features
+
+- Add a `/speakers` page listing every speaker with the sessions they give,
+  linked from the nav (EN: "Speakers", ES: "Ponentes")
+- Every session now shows a level (beginner/intermediate/advanced) as a badge
+  next to the track on the session detail page and inline in the schedule
+  timeline
+
+## Test Suite
+
+| Suite          | Status     |
+| -------------- | ---------- |
+| ESLint         | ⏳ pending |
+| Type-check     | ⏳ pending |
+| Unit tests     | ⏳ pending |
+| Build (Vercel) | ⏳ pending |
+
 ## [0.3.1] — 2026-09-24
 
 ### Bug Fixes
